@@ -1,0 +1,169 @@
+/*Quito margenes del body para que se vea full*/
+body {
+    margin: 0 0 0 0;
+}
+
+.head-top {
+    width: 100%;
+    background-color: #ECE9CB;
+    height: 30px;
+    padding-top: 0 !important;
+}
+
+
+.head-top-content-link {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.head-top-content-img {
+    height: 20px;
+    margin: 3px 5px 5px 5px;
+}
+
+.img-logo {
+    width: 220px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.img-slogan {
+    margin-top: 55px;
+    position: absolute;
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style: none;
+    display: inline-block;
+}
+
+header nav ul li {
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-linka {
+    margin-right: 5px;
+    background-color: #FFEDBE;
+    border: #FFEDBE;
+    border-radius: 15px;
+    color: #50232E;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page-links {
+    float: right;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.seccion-body {
+    margin-top: 50px;
+}
+
+.block-title {
+    width: 100%; 
+    height: 20px; 
+    border-bottom: 2px solid black; 
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.block-title span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px; 
+    background-color: #ffffff; 
+    padding: 10px 10px;
+}
+
+  footer .page-links .btn-link {
+    margin-right: 40px;
+    border: #FFEDBE;
+    border-radius: 15px;
+    height: 36px;
+    text-decoration: none;
+    color: #50232E;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer .page-links {
+    border-top-left-radius: 100px;
+    padding: 50px 50px 50px 150px;
+    background-color: #ECE9CB;
+    margin-top: -10px;
+}
+
+footer .logo {
+    margin-top: 20px;
+}
+
+footer .footer-redes img {
+    max-height: 30px;
+}
+
+.footer-redes {
+    margin-top: 25px;
+    text-align: right;
+}
+
+.footer-redes a {
+    margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-redes span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+.footer-redes img {
+    filter: invert(78%) sepia(56%) saturate(341%) hue-rotate(34deg) brightness(89%) contrast(89%);
+}
+
+.logos-destacados {
+    height: 50px;
+}
+
+.bl {
+    border-left: 1px solid;
+}
+
+@media only screen and (max-width: 797px) {
+    footer {
+        display: none;
+    }
+    .navbar-nav {
+        margin-top: 40px;
+        font-size: small;
+        text-align: center;
+    }
+    .logos-destacados {
+        height: 20px;
+    }
+
+    .block-title span {
+        font-size: 20px; 
+    }
+
+    .info h4 {
+        font-size: small;
+    }
+
+    .info span {
+        font-size: smaller;
+    }
+  }

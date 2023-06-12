@@ -1,0 +1,23 @@
+@import 'variables';
+@import 'header';
+@import 'footer';
+@import 'mobile';
+@import 'encabezado';
+
+.gallery-cell img {
+    height: 350px;
+    
+  }
+
+@media only screen and (max-width: 797px) { 
+    .gallery-cell {
+        text-align: center;
+    }
+    .gallery-cell img {
+        height: 100px;
+      }
+
+      .gallery-cell h3 {
+        font-size: small !important;
+      }
+}
