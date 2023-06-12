@@ -101,31 +101,6 @@ footer .footer-redes span {
   font-size: small;
 }
 
-@media only screen and (max-width: 797px) {
-  footer {
-    display: none;
-  }
-  .navbar-nav {
-    margin-top: 40px;
-    font-size: small;
-    text-align: center;
-  }
-  .logos-destacados {
-    height: 20px;
-  }
-  .block-title span {
-    font-size: 20px;
-  }
-  .info h4 {
-    font-size: small;
-  }
-  .info span {
-    font-size: smaller;
-  }
-  .gallery-cell img {
-    height: 100px;
-  }
-}
 .seccion-body {
   margin-top: 50px;
 }
@@ -170,6 +145,31 @@ footer .footer-redes span {
   to {
     /* returns the sun to its default position */
     transform: translateX(0);
+  }
+}
+@media only screen and (max-width: 797px) {
+  footer {
+    display: none;
+  }
+  .navbar-nav {
+    margin-top: 40px;
+    font-size: small;
+    text-align: center;
+  }
+  .logos-destacados {
+    height: 20px !important;
+  }
+  .block-title span {
+    font-size: 20px;
+  }
+  .info h4 {
+    font-size: small;
+  }
+  .info span {
+    font-size: smaller;
+  }
+  .gallery-cell img {
+    height: 100px;
   }
 }
 

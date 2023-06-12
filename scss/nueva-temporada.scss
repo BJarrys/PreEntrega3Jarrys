@@ -1,7 +1,6 @@
 @import 'variables';
 @import 'header';
 @import 'footer';
-@import 'mobile';
 @import 'encabezado';
 
 table {
@@ -21,3 +20,5 @@ table {
     height: 450px; 
     }
   }
+
+  @import 'mobile';

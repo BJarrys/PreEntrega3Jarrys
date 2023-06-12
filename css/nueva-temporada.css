@@ -101,31 +101,6 @@ footer .footer-redes span {
   font-size: small;
 }
 
-@media only screen and (max-width: 797px) {
-  footer {
-    display: none;
-  }
-  .navbar-nav {
-    margin-top: 40px;
-    font-size: small;
-    text-align: center;
-  }
-  .logos-destacados {
-    height: 20px;
-  }
-  .block-title span {
-    font-size: 20px;
-  }
-  .info h4 {
-    font-size: small;
-  }
-  .info span {
-    font-size: smaller;
-  }
-  .gallery-cell img {
-    height: 100px;
-  }
-}
 .page-head {
   height: 100px;
   background-color: #A7CB68;
@@ -153,6 +128,32 @@ table {
 
 .gallery-cell img {
   height: 450px;
+}
+
+@media only screen and (max-width: 797px) {
+  footer {
+    display: none;
+  }
+  .navbar-nav {
+    margin-top: 40px;
+    font-size: small;
+    text-align: center;
+  }
+  .logos-destacados {
+    height: 20px !important;
+  }
+  .block-title span {
+    font-size: 20px;
+  }
+  .info h4 {
+    font-size: small;
+  }
+  .info span {
+    font-size: smaller;
+  }
+  .gallery-cell img {
+    height: 100px;
+  }
 }
 
 /*# sourceMappingURL=nueva-temporada.css.map */
