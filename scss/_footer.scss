@@ -1,0 +1,45 @@
+.page-links {
+    float: right;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+footer {
+    .page-links {
+        border-top-left-radius: 100px;
+        padding: 50px 50px 50px 150px;
+        background-color: #ECE9CB;
+        margin-top: -10px;
+        .btn-link {
+            margin-right: 40px;
+            border: $colorprimario;
+            border-radius: 15px;
+            height: 36px;
+            text-decoration: none;
+            color: $colorsecundario;
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+    .logo {
+        margin-top: 20px;
+    }
+    .footer-redes {
+        margin-top: 25px;
+        text-align: right;
+        img {
+            max-height: 30px;  
+            filter: invert(78%) sepia(56%) saturate(341%) hue-rotate(34deg) brightness(89%) contrast(89%);
+        }
+        a {
+            margin-left: 5px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        span {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: small;
+        }
+        
+    }
+    
+}

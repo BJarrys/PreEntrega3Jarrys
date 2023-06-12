@@ -1,0 +1,14 @@
+@import 'variables';
+@import 'header';
+@import 'footer';
+@import 'mobile';
+@import 'encabezado';
+
+form {
+    margin: 35px auto;
+    width: 50%;
+    padding: 1em;
+    border: 2px solid #CCC;
+    border-radius: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+  }

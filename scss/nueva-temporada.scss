@@ -1,0 +1,23 @@
+@import 'variables';
+@import 'header';
+@import 'footer';
+@import 'mobile';
+@import 'encabezado';
+
+table {
+    width: 100%;
+}
+
+.gallery {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.gallery-cell {
+    img {
+    height: 450px; 
+    }
+  }
