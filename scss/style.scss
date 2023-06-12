@@ -29,3 +29,23 @@
 .bl {
     border-left: 1px solid;
 }
+
+.animado {
+    animation: 8s linear 1s infinite alternate slideid;
+    animation-name: traslado;
+    span {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight:bold; 
+     }
+}
+
+@keyframes traslado {
+    from {
+      /* pushes the sun down past the viewport */
+      transform: translateX(110vh);
+    }
+    to {
+      /* returns the sun to its default position */
+      transform: translateX(0);
+    }
+  }
